@@ -4,7 +4,7 @@ function boxColor ({color, value}) {
   const yesColor = `Yes, I'm ${value} color`
   
   return (
-    <div className={`box ${color}`} 
+    <div className={`box`} 
       style={
         {backgroundColor: value=== color ? color : 'transparent', 
         color: value=== color ? 'white': color }} >
